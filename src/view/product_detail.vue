@@ -25,7 +25,7 @@
                         :disabled="quantity == 1">-</button>
                 </div>
                 <button class="btn btn-primary"
-                    @click="cart_store.add_cart_detail(product.id, product.price, quantity)">เพิ่มสินค้า</button>
+                    @click="cart_store.add_cart_detail(product.id, product.price, quantity)">เพิ่มสินค้าใส่ตะกร้่า</button>
             </div>
         </div>
     </div>

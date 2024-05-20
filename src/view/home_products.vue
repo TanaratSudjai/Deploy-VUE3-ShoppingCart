@@ -16,7 +16,7 @@
                     <routerLink :to="`/productdetail/${product.id}`" class="btn btn-primary mx-2">รายละเอียด
                     </routerLink>
                     <button class="btn btn-success mx-2"
-                        @click="cart_store.add_cart(product.id, product.price)">เพิ่มเข้าตะกร้า</button>
+                        @click="cart_store.add_cart(product.id, product.price)">เพิ่มเข้าตะกร้าใส่ตะกร้า</button>
                 </div>
             </div>
         </div>

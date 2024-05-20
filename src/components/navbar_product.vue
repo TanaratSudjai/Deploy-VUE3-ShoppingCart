@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <routerLink to="/" class="nav-link " aria-current="page" href="#">หน้าเเรก</routerLink>
+                        <routerLink to="/" class="nav-link " aria-current="page" href="#">หน้าเลือกสินค้า</routerLink>
                     </li>
                     <li class="nav-item">
                         <routerLink to="/cart" class="nav-link " aria-current="page" href="#">ตะกร้าสินค้า</routerLink>

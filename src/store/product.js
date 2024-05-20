@@ -13,7 +13,6 @@ export const useProductStore = defineStore("useProductStore", () => {
     await axios
       .get(`${import.meta.env.VITE_API}`)
       .then((res) => {
-        // console.log(res.data);
         product.value = res.data;
         console.log(product.value);
       })

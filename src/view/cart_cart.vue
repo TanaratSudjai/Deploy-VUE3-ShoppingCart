@@ -28,7 +28,7 @@
                 </td>
             </tr>
             <br>
-            <button class="btn btn-primary" @click="cart_store.clear_cart()">เคลียร์ตะกร้า</button>
+            <button class="btn btn-primary" @click="cart_store.clear_cart()">เคลียร์ตะกร้าสินค้า</button>
             <button class="btn btn-success mx-2">ยอดรวม: {{ currencyTHB(cart_store.total) }} บาท</button>
         </tbody>
     </table>

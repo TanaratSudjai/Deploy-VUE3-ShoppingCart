@@ -95,7 +95,7 @@ export const useCartStore = defineStore("useCartStore", () => {
       icon: "error",
       title: "คุณได้เพิ่มสินค้าไปเเล้ว",
       showConfirmButton: false,
-      timer: 1500,
+      timer: 2000,
     });
   };
 
