@@ -13,10 +13,12 @@
                     <h5 class="card-title">{{ product.title }}</h5>
                     <p class="card-text"> ประเภท {{ product.category }}</p>
                     <p class="card-text">ราคา {{ currencyTHB(product.price) }} </p>
-                    <routerLink :to="`/productdetail/${product.id}`" class="btn btn-primary mx-2">รายละเอียด
-                    </routerLink>
-                    <button class="btn btn-success mx-2"
-                        @click="cart_store.add_cart(product.id, product.price)">เพิ่มเข้าตะกร้าใส่ตะกร้า</button>
+                    <div class="d-flex">
+                        <routerLink :to="`/productdetail/${product.id}`" class="btn btn-primary mx-2">รายละเอียด
+                        </routerLink>
+                        <button class="btn btn-success mx-2"
+                            @click="cart_store.add_cart(product.id, product.price)">เพิ่มใส่ตะกร้า</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,7 +35,7 @@ const product_store = useProductStore();
 import { currencyTHB } from '../shared/currency';
 
 const list = computed(() => product_store.list_product)
-const search_products = computed(() =>product_store.search_product)
+const search_products = computed(() => product_store.search_product)
 
 
 import { useCartStore } from '../store/cart';
